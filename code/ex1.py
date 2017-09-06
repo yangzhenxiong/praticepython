@@ -9,6 +9,7 @@ def main():
     name = get_name()
     age = get_age()
     year = get_year(int(age), birthday_yet())
+    if year == 'greater':
         print ("You're already 100 years old or greater! Congrats!")
     else:
         print ('Hello, {}!'.format(name))
